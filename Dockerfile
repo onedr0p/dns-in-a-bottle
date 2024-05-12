@@ -19,7 +19,6 @@ RUN \
 COPY rootfs/ /
 
 VOLUME ["/config"]
-VOLUME ["/data"]
 EXPOSE \
     53/udp 53/tcp \
     5354/tcp 5354/udp \
