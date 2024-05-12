@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+if [[ ! -f /config/dnsdist.conf ]]; then
+    cp /etc/dnsdist/dnsdist.conf /config/dnsdist.conf
+fi

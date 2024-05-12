@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+if [[ ! -f /config/blocky.yaml ]]; then
+    cp /etc/blocky/config.yaml /config/blocky.yaml
+fi

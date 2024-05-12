@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+mkdir -p /data/bind
+
+if [[ ! -f /config/named.conf ]]; then
+    cp /etc/bind/named.conf /config/named.conf
+fi
