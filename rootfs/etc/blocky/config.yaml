@@ -26,9 +26,6 @@ blocking:
   blackLists:
     ads:
       - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-      - |
-        *.androidtvchannels-pa.googleapis.com
-        *.androidtvwatsonfe-pa.googleapis.com
     fakenews:
       - https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
     gambling:
